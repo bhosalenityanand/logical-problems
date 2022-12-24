@@ -27,13 +27,7 @@ for(let i=0;i<arr2.length;i++){
     let rt = nm.get(arr2[i])
     rt++
 
-    nm.set(arr2[i],rt)
-    if(rt>1){
-        console.log("duplicate letters "+arr2[i]+"=> "+rt)
-    }
-    else{
-        // console.log("original letter "+arr2[i])
-    }
+    nm.set(arr2[i],rt) 
 }
 console.log(nm)
 

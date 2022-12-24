@@ -29,14 +29,14 @@ console.log(final)
 
 // write a program for the armstrong number
 
-let num = 1646
+let num = 1634
 let sum = 0
 let temp = num
 
 while (temp > 0) {
     let rem = temp % 10
 
-    sum += rem ** 3
+    sum += rem ** 4
     temp = Math.floor(temp / 10)
 
 }

@@ -87,22 +87,23 @@ console.log('-----------------------------------------------------')
 */
 console.log('--------------------------------------------')
 // for inverted
-function revPattern(x){
-        for(let i=0;i<=x;i++){
-            let s=''
-            for(let j=0;j<=x;j++){
-                if(j>=i){
-                    s=s+'*'
-                }
-                else{
-                    s+=' '
-                }
-            }
-            console.log(s)
-        }
-    }
+// function revPattern(x){
+//         for(let i=0;i<=x;i++){
+//             let s=''
+//             for(let j=0;j<=x;j++){
+//                 if(j>=i){
+//                     s=s+'*'
+                    
+//                 }
+//                 else{
+//                     s+=' '
+//                 }
+//             }
+//             console.log(s)
+//         }
+//     }
     
-revPattern(10)
+// revPattern(10)
 
 // this out put is
 /*
@@ -123,18 +124,18 @@ revPattern(10)
 console.log('-----------------------------------------------')
 // for the traingle star pattern
 
-// for(let i=10;i>=1;i--){
-//     let s=''
-//     for(let j=0;j<=10;j++){
-//         if(j>=i){
-//             s=s+'* '
-//         }
-//         else{
-//             s+=' '
-//         }
-//     }
-//     console.log(s)
-// }
+for(let i=10;i>=1;i--){
+    let s=''
+    for(let j=0;j<=10;j++){
+        if(j>=i){
+            s=s+'* '
+        }
+        else{
+            s+=' '
+        }
+    }
+    console.log(s)
+}
 
 /**
  

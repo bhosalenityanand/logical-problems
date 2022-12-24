@@ -4,29 +4,44 @@
 10*9*8*7*6*5*4*3*2*1
 */
 
-function fact(m){
-    let sv = 1
-    for(let i=m;i>=1;i--){
-        sv = sv*i
-    }
-    console.log(sv)
-}
+// function fact(m){
+//     let sv = 1
+//     for(let i=m;i>=1;i--){
+//         sv = sv*i
+//     }
+//     console.log(sv)
+// }
 
-fact(10)
-fact(5)
-fact(3)
+// fact(10)
+// fact(5)
+// fact(3)
 
 //  another method
 
-function recur(n){
-    if(n<=1){
-        return n
+// function recur(n){
+
+
+//     if(n<=1){
+//         return n
          
-    }
+//     }
     
-    return n*recur(n-1)
+//     return n*recur(n-1)
+// }
+
+// // recur(6)
+// let sol = recur(5)
+// console.log(sol)
+
+// factorial of the numbers are as follow
+
+function fact(num){
+    let tem = 1
+
+    for(let i=num; i>=1; i--){
+        tem = tem * i
+    }
+    console.log(tem)
 }
 
-// recur(6)
-let sol = recur(5)
-console.log(sol)
+fact(10)
